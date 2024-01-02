@@ -45,3 +45,8 @@ struct WeatherView: View {
                 //.navigationBarDrawer(displayMode: .always), prompt: "Search for a city or airport")
     }
 }
+
+#Preview {
+    WeatherView()
+        .preferredColorScheme(.dark)
+}

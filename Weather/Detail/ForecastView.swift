@@ -66,5 +66,5 @@ struct ForecastView: View {
 
 #Preview {
     ForecastView()
-        .preferredColorScheme(.dark)
+//        .preferredColorScheme(.dark)
 }
